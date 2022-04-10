@@ -1,0 +1,260 @@
+/* header */
+.top{
+    background-color: #011543;
+}
+.number{
+    font-size:16px;
+}
+/* navbar */
+.nav_image{
+    margin-left:7px;
+}
+
+ .navbar{
+    background-color: #002374;
+}
+a{
+    text-decoration: none;
+    color:white;
+    font-size:16px;
+}
+a:hover {
+    background-color:#3b5694;
+  } 
+
+  /* image slider */
+  .slider{
+      margin-top:-2%;
+  }
+  .banner{
+      position:absolute;
+      top:20%;
+      left:28%;
+  }
+  .banner_sub{
+    position:absolute;
+    top:-1%;
+    left:12%;
+}
+.main-head{
+    color: #13256f;
+    font-size:19px;
+}
+/* Image card */
+.heritage{
+    max-width:50%;
+    position:relative;
+    margin-top:-2%;
+    left:25%;
+    box-shadow: 10px 10px 10px 10px grey;
+    background-color: #ffffff;
+}
+.text_image{
+    margin-bottom:10%;
+}
+
+.member{
+    background-color: #1e2e6f;
+}
+.member1{
+    width:120px;
+    height:50px;
+    outline: white;
+}
+.member2{
+    width:160px;
+    height:50px;
+    outline: white;
+}
+.wel{
+    position:relative;
+    left:10%;
+    bottom:10%;
+
+}
+
+/* Videos card */
+.videos{
+    background-color: #f6f6f6;
+}
+.follow{
+    position: relative;
+    top:-10%;
+    left:120%;
+}
+.social_connection{
+    font-size:30px;
+}
+.customize{
+position:relative;
+left:-50%;
+top:11%;
+}
+/* Map */
+.map{
+    margin-top:10%;
+}
+/* Footer */
+.sub_footer{
+    margin-top:5%;
+}
+
+.footer{
+    background-color: #13256f;
+}
+.object{
+   margin-left:40%;
+   margin-top:-8%; 
+}
+.minnesota_footer{
+    position: relative;
+    left:3%;
+    max-width:80%;
+}
+/* For Tablet and ipad  */
+  @media (max-width: 768px) {
+    .banner{
+      position: absolute;
+      left: 25%;
+      bottom:0;
+      margin-left: 0;
+      margin-top:0;
+      max-width:50%;
+      height:300px;
+    }
+    .banner_sub{
+        position: absolute;
+        left:1%;
+        top:-1%;
+        bottom:0;
+        margin-left: 0;
+        margin-top:0;
+        max-width:10%;
+        height:200px;
+      }
+      .heritage{
+        position: relative;
+        left:0;
+        bottom:0;
+        margin-left: 0;
+        margin-top:0;
+        max-width:100%;
+      }
+      .text_image{
+        margin-bottom:5%;
+    }
+     
+      .home{
+          max-width:100%;
+      }
+      .member1{
+        max-width:100%;
+      
+    }
+    .member2{
+        max-width:100%;
+    }
+    .img_video{
+        max-width:100%;
+    }
+    .follow{
+        position:relative;
+        left:105%;
+    }
+    .news{
+        position:relative;
+        top:0;
+        left:0;
+        max-width:100%;
+    }
+    .customize{
+        position:relative;
+        top:15%;
+        left:-80%;
+        max-width:100%;
+    }
+    .canvas{
+        max-width:100%;
+        margin-top:10%;
+    }
+ .footer{
+     position: relative;
+     top:0;
+     left:0;
+     max-width: 100%;
+ }
+    
+}
+/* For mobile views */
+@media (max-width:640px) {
+    .banner{
+      position: absolute;
+      left: 25%;
+      bottom:0;
+      margin-left: 0;
+      margin-top:0;
+      max-width:50%;
+      height:100px;
+    }
+    .musem{
+        min-width:100%;
+    }
+    .img_video{
+        min-width:100%;
+    }
+    
+    .member_part{
+        margin-left:20%;
+    }
+    .sponsors_logo{
+       margin-left:-15%;
+    }
+    .news{
+        position:relative;
+        top:20%;
+        left:0;
+        max-width:100%;
+    }
+    .follow{
+        position: relative;
+        left:75%;
+        top:-15%;
+    }
+    .customize{
+        position:relative;
+        top:30%;
+        left:-70%;
+        max-width:100%;
+ }
+ .aa{
+     margin-left:10%;
+     margin-bottom:10%;
+ }
+ .canvas{
+    max-width:95%;
+    margin-top:30%;
+}
+.line{
+    max-width: 100%;
+    position:relative;
+    top:0;
+    right:0;
+}
+
+.footer{
+    position: relative;
+    top:0;
+    left:0;
+    max-width: 95%;
+}
+.object{
+   margin-top:-30%;
+   margin-left:30%;
+ }
+.minnesota_footer{
+    position: relative;
+    left:7%;
+    max-width:80%;
+}
+
+}
